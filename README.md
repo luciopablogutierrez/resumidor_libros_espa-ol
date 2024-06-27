@@ -27,12 +27,12 @@ spaCy:
 > Permiten un análisis más profundo del contenido, incluyendo la identificación de entidades nombradas.
 
 **Para usar este código, necesitarás instalar las bibliotecas necesarias**:
-pip install PyPDF2 nltk scikit-learn transformers torch spacy
-python -m spacy download es_core_news_sm
+> pip install PyPDF2 nltk scikit-learn transformers torch spacy
+> python -m spacy download es_core_news_sm
 
 
-Explicamos 
-pip install PyPDF2 nltk scikit-learn transformers torch spacy
+**Explicamos las bibliotecas utilizadas**
+> pip install PyPDF2 nltk scikit-learn transformers torch spacy
 
 Este es un comando de pip (el gestor de paquetes de Python) que instala varias bibliotecas necesarias para el script de resumir libros:
 
@@ -44,7 +44,7 @@ torch: Biblioteca de aprendizaje profundo, necesaria para transformers.
 spacy: Biblioteca avanzada para procesamiento de lenguaje natural.
 
 
-python -m spacy download es_core_news_sm
+> python -m spacy download es_core_news_sm
 
 Este comando descarga e instala un modelo de lenguaje específico para spaCy:
 
